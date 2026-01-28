@@ -1,0 +1,132 @@
+{
+    "name": "matcha-ceremony-theme",
+    "version": "1.0.0",
+    "displayName": "Matcha Ceremony",
+    "description": "Zen-inspired theme with muted matcha greens and warm rice paper tones",
+    "publisher": "Zen-Garden-Studio",
+    "author": {
+        "name": "Zen-Garden-Studio",
+        "url": "https://github.com/your-username"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes",
+        "Color Themes",
+        "Dark Themes",
+        "UI Design",
+        "Programming Languages",
+        "Japan",
+        "Minimalism",
+        "Aesthetics",
+        "Popular"
+    ],
+    "keywords": [
+        "matcha-ceremony",
+        "matcha",
+        "tea",
+        "green",
+        "midnight",
+        "dawn",
+        "dusk",
+        "sakura",
+        "zen",
+        "wabi-sabi",
+        "japan",
+        "oriental",
+        "asian",
+        "minimal",
+        "minimalist",
+        "calm",
+        "earthy",
+        "washi-paper",
+        "tatami",
+        "soothing",
+        "serene",
+        "balanced",
+        "natural",
+        "modern",
+        "dark",
+        "theme",
+        "color-theme",
+        "color scheme",
+        "vscode",
+        "syntax",
+        "highlighting",
+        "highlight",
+        "rainbow brackets",
+        "developer",
+        "programming",
+        "frontend",
+        "backend",
+        "typescript",
+        "javascript",
+        "python",
+        "rust",
+        "html",
+        "css",
+        "markdown",
+        "json",
+        "yaml",
+        "coding",
+        "focus",
+        "concentration",
+        "palette",
+        "unique",
+        "popular",
+        "editors",
+        "relaxing",
+        "cherry blossom",
+        "Japanese culture",
+        "colorful"
+    ],
+    "icon": "src/icon.png",
+    "galleryBanner": {
+        "color": "#1D1F1B",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/matcha-ceremony-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/your-username/matcha-ceremony-theme/issues"
+    },
+    "homepage": "https://github.com/your-username/matcha-ceremony-theme#readme",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Matcha Ceremony",
+                "uiTheme": "vs-dark",
+                "path": "./themes/matcha-ceremony.json"
+            },
+            {
+                "label": "Matcha Ceremony Dawn",
+                "uiTheme": "vs-dark",
+                "path": "./themes/matcha-ceremony-dawn.json"
+            },
+            {
+                "label": "Matcha Ceremony Dusk",
+                "uiTheme": "vs-dark",
+                "path": "./themes/matcha-ceremony-dusk.json"
+            },
+            {
+                "label": "Matcha Ceremony Midnight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/matcha-ceremony-midnight.json"
+            },
+            {
+                "label": "Matcha Ceremony Zen",
+                "uiTheme": "vs-dark",
+                "path": "./themes/matcha-ceremony-zen.json"
+            },
+            {
+                "label": "Matcha Ceremony Sakura",
+                "uiTheme": "vs-dark",
+                "path": "./themes/matcha-ceremony-sakura.json"
+            }
+        ]
+    }
+}
