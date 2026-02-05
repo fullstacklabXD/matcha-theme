@@ -3,12 +3,15 @@
     "version": "1.0.0",
     "displayName": "Matcha Ceremony",
     "description": "Zen-inspired theme with muted matcha greens and warm rice paper tones",
-    "publisher": "Zen-Garden-Studio",
+    "publisher": "fullstacklabXD",
     "author": {
-        "name": "Zen-Garden-Studio",
-        "url": "https://github.com/your-username"
+        "name": "fullstacklabXD",
+        "url": "https://github.com/fullstacklabXD/matcha-theme"
     },
     "license": "MIT",
+    "main": "welcome.js",
+    "activationEvents": 
+    ["onCommand:matchaCeremony.showWelcome"],
     "engines": {
         "vscode": "^1.60.0"
     },
@@ -89,13 +92,26 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/your-username/matcha-ceremony-theme"
+        "url": "https://github.com/fullstacklabXD/matcha-theme"
     },
     "bugs": {
-        "url": "https://github.com/your-username/matcha-ceremony-theme/issues"
+        "url": "https://github.com/fullstacklabXD/matcha-theme/issues"
     },
-    "homepage": "https://github.com/your-username/matcha-ceremony-theme#readme",
+    "homepage": "https://github.com/fullstacklabXD/matcha-theme#readme",
     "contributes": {
+        "commands": [
+            {
+                "command": "matchaCeremony.showWelcome",
+                "title": "Matcha Ceremony: Open Welcome Page"
+            }
+        ],
+        "viewsWelcome": [
+            {
+                "view": "explorer",
+                "contents": "# 🍵 Matcha Ceremony\n\nWelcome to the zen-inspired theme.\n\nMuted matcha greens and warm rice paper tones create an atmosphere for focused work.\n\n**Theme variants:** Matcha Ceremony, Dawn, Dusk, Midnight, Zen, Sakura — choose in color theme settings.\n\n[Open Folder](command:vscode.openFolder)",
+                "when": "workspaceEmpty"
+            }
+        ],
         "themes": [
             {
                 "label": "Matcha Ceremony",
