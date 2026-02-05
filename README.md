@@ -309,15 +309,15 @@ Found an issue or have an improvement idea?
 
 ## 👤 Author & Publisher
 
-**Zen-Garden-Studio**
+**fullstacklabXD**
 
-- GitHub: [@Zen-Garden-Studio](https://github.com/your-username)
+- GitHub: [@fullstacklabXD](https://github.com/fullstacklabXD/matcha-theme)
 
 ## 📄 License
 
 MIT License — see [LICENSE.txt](LICENSE.txt) file
 
-Copyright (c) 2026 Zen-Garden-Studio
+Copyright (c) 2026 fullstacklabXD
 
 ## 💖 Acknowledgments
 
